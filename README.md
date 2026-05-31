@@ -5,7 +5,7 @@ Es un repositorio de Prueba para mis chicos del curso de Cloud
 jejejeje xd
 
 # Modificado por Jose brayan velasquez torres
-jijija
+Pruebando desde ubuntu usando ssh jijija
 
 # Modificado por Jhon Bayro Segundo Liza Vasquez 
 jojoja
