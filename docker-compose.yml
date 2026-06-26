@@ -1,0 +1,19 @@
+services:
+  mariadb:
+    image: mariadb:11.4
+    container_name: mariadb_compose
+
+    ports:
+      - "3308:3306"
+
+    environment:
+      MARIADB_ROOT_PASSWORD: 123
+  php:
+    image: php:8.2-apache
+    container_name: php_compose
+
+    ports:
+      - "8081:80"
+
+    volumes:
+    - ./:/var/www/html
